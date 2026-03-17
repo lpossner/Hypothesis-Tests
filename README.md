@@ -165,7 +165,7 @@ where $R_1$ is the rank-sum of group X in the joint ranking.
 
 $$\mu_U = \frac{n_1 n_2}{2}, \qquad \sigma_U^2 = \frac{n_1 n_2}{12}\left[(N+1) - \frac{T}{N(N-1)}\right]$$
 
-$$T = \sum_{\text{ties}} (t_k^3 - t_k), \qquad z = \frac{U_1 - \mu_U - \tfrac{1}{2}\operatorname{sgn}(U_1-\mu_U)}{\sigma_U}$$
+$$T = \sum_{\text{ties}} (t_k^3 - t_k), \qquad z = \frac{U_1 - \mu_U - \tfrac{1}{2}\text{sgn}(U_1-\mu_U)}{\sigma_U}$$
 
 Distribution: **N(0, 1)**
 
@@ -185,7 +185,7 @@ Distribution: **N(0, 1)**
 
 $$\mu_W = \frac{n(n+1)}{4}, \qquad \sigma_W^2 = \frac{n(n+1)(2n+1)}{24} - \frac{T}{48}$$
 
-$$z = \frac{W - \mu_W - \tfrac{1}{2}\operatorname{sgn}(W - \mu_W)}{\sigma_W}$$
+$$z = \frac{W - \mu_W - \tfrac{1}{2}\text{sgn}(W - \mu_W)}{\sigma_W}$$
 
 Distribution: **N(0, 1)**
 
